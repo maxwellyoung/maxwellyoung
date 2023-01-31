@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.jpg" />
 				<meta
 					name="description"
 					content="Maxwell Young is based in Auckland, New Zealand."
