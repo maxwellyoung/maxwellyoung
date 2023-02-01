@@ -28,7 +28,14 @@ export default function Home() {
 				</p>
 				<p>
 					I <a href="/music">create</a> and I{' '}
-					<a href="https://beloved.wtf/maxwell-young">share music</a>.
+					<a
+						href="https://beloved.wtf/maxwell-young"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						share music
+					</a>
+					.
 				</p>
 			</section>
 			<footer className="flex mt-6">
@@ -36,6 +43,8 @@ export default function Home() {
 					id="spotify"
 					href="https://open.spotify.com/artist/5HONdRTLNvBjlD2LirKp0q"
 					className="mr-2"
+					rel="noopener noreferrer"
+					target="_blank"
 				>
 					<svg
 						width="24"
@@ -50,6 +59,8 @@ export default function Home() {
 					id="twitter"
 					href="https://twitter.com/internetmaxwell"
 					className="mr-2"
+					rel="noopener noreferrer"
+					target="_blank"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -64,6 +75,8 @@ export default function Home() {
 					id="instagram"
 					href="https://www.instagram.com/maxwell_young/"
 					className="mr-2"
+					rel="noopener noreferrer"
+					target="_blank"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -78,6 +91,8 @@ export default function Home() {
 					id="youtube"
 					href="https://www.youtube.com/@maxwell_young"
 					className="mr-2"
+					rel="noopener noreferrer"
+					target="_blank"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +103,13 @@ export default function Home() {
 						<path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
 					</svg>
 				</a>
-				<a id="github" href="https://github.com/maxwellyoung" className="mr-2">
+				<a
+					id="github"
+					href="https://github.com/maxwellyoung"
+					className="mr-2"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="24"
@@ -102,6 +123,8 @@ export default function Home() {
 					id="linkedin"
 					href="https://www.linkedin.com/in/maxwell-young-a55032125/"
 					className="mr-2"
+					rel="noopener noreferrer"
+					target="_blank"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

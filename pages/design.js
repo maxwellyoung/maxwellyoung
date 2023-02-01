@@ -20,7 +20,11 @@ const design = () => {
 					<p>
 						<span className="font-bold">Church</span> - Orange Cover Artwork
 					</p>
-					<a href="https://open.spotify.com/album/6Fg8W91ZK9HeBZSsLWXTje?si=c9245164aa614844">
+					<a
+						href="https://open.spotify.com/album/6Fg8W91ZK9HeBZSsLWXTje?si=c9245164aa614844"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
 						<Image
 							src="/images/orange.jpg"
 							width={800}
@@ -34,7 +38,11 @@ const design = () => {
 						<span className="font-bold">Maxwell Young</span> - No. 5 Cover
 						Artwork
 					</p>
-					<a href="https://open.spotify.com/track/0Qxq1Nf297aBK1k8E9py5P?si=2e1b028407df470f">
+					<a
+						href="https://open.spotify.com/track/0Qxq1Nf297aBK1k8E9py5P?si=2e1b028407df470f"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
 						<Image
 							src="/images/no5.jpg"
 							width={800}
