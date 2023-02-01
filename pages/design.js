@@ -22,7 +22,7 @@ const design = () => {
 					</p>
 					<a href="https://open.spotify.com/album/6Fg8W91ZK9HeBZSsLWXTje?si=c9245164aa614844">
 						<Image
-							src="/images/orange.png"
+							src="/images/orange.webp"
 							width={800}
 							height={800}
 							alt="artwork for orange by church"

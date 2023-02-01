@@ -47,7 +47,7 @@ export default function Layout({ children, home }) {
 						<div className="relative inline-block">
 							<h1 className={utilStyles.heading2Xl}>{name}</h1>
 							<Image
-								src="/images/arrow.png"
+								src="/images/arrow.webp"
 								alt="Image"
 								width={600}
 								height={600}
@@ -60,7 +60,7 @@ export default function Layout({ children, home }) {
 						<Link href="/">
 							<Image
 								priority
-								src="/images/profile.jpg"
+								src="/images/profile.webp"
 								className={utilStyles.borderCircle}
 								height={108}
 								width={108}
