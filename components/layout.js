@@ -44,7 +44,16 @@ export default function Layout({ children, home }) {
 								alt="profile of maxwell young"
 							/>
 						</motion.div>
-						<h1 className={utilStyles.heading2Xl}>{name}</h1>
+						<div className="relative inline-block">
+							<h1 className={utilStyles.heading2Xl}>{name}</h1>
+							<Image
+								src="/images/arrow.png"
+								alt="Image"
+								width={600}
+								height={600}
+								className="absolute -top-24 rotate-180 left-40 hidden"
+							/>
+						</div>
 					</motion.div>
 				) : (
 					<>
