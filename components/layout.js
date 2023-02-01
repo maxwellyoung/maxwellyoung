@@ -3,12 +3,13 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
+import { motion, useScroll } from 'framer-motion'
 
 const name = 'Maxwell Young'
 export const siteTitle = 'Maxwell Young Website'
 
 export default function Layout({ children, home }) {
+	const { scrollYProgress } = useScroll()
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -26,21 +27,23 @@ export default function Layout({ children, home }) {
 				<meta name="og:title" content={siteTitle} />
 				<meta name="twitter:card" content="summary_large_image" />
 			</Head>
+			<motion.div
+				className="progress-bar"
+				style={{ scaleX: scrollYProgress }}
+			/>
 			<header className={styles.header}>
 				{home ? (
-					<motion.div
-						whileHover={{
-							textShadow: '0px 0px 4px gray',
-						}}
-					>
-						<Image
-							priority
-							src="/images/profile.jpg"
-							className={utilStyles.borderCircle}
-							height={144}
-							width={144}
-							alt=""
-						/>
+					<motion.div>
+						<motion.div>
+							<Image
+								priority
+								src="/images/profile.jpg"
+								className={utilStyles.borderCircle}
+								height={144}
+								width={144}
+								alt="profile of maxwell young"
+							/>
+						</motion.div>
 						<h1 className={utilStyles.heading2Xl}>{name}</h1>
 					</motion.div>
 				) : (

@@ -10,7 +10,7 @@ export default function Home() {
 				<title>{siteTitle}</title>
 			</Head>
 			<section className={utilStyles.headingMd}>
-				<p>
+				<p className="mb-4">
 					Based in{' '}
 					<span className="relative inline-block">
 						Auckland, New Zealand.
