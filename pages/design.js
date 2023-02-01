@@ -1,10 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
+import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 
 const design = () => {
 	return (
 		<Layout>
+			<Head>
+				<title>{siteTitle}</title>
+			</Head>
 			<div className="mb-4">
 				<p>
 					I don't consider myself a designer but it's something I'm doing so I

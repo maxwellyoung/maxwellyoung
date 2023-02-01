@@ -1,10 +1,13 @@
 import React from 'react'
-import Image from 'next/image'
+import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 
 const design = () => {
 	return (
 		<Layout>
+			<Head>
+				<title>{siteTitle}</title>
+			</Head>
 			<div className="mb-4">
 				<p>
 					Currently working at Spark New Zealand as a Data Intelligence UI

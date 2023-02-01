@@ -5,6 +5,9 @@ import Layout, { siteTitle } from '../components/layout'
 const design = () => {
 	return (
 		<Layout>
+			<Head>
+				<title>{siteTitle}</title>
+			</Head>
 			<div className="mb-8">
 				<p>
 					I've been producing, writing, recording and releasing music since
