@@ -11,9 +11,9 @@ export const siteTitle = 'Maxwell Young Website'
 export default function Layout({ children, home }) {
 	const { scrollYProgress } = useScroll()
 	return (
-		<div className={styles.container}>
+		<motion.div className={styles.container}>
 			<Head>
-				<link rel="icon" href="/favicon.webp" />
+				<link rel="icon" href="/favicon.jpg" />
 				<meta
 					name="description"
 					content="Maxwell Young is based in Auckland, New Zealand."
@@ -34,7 +34,11 @@ export default function Layout({ children, home }) {
 			<header className={styles.header}>
 				{home ? (
 					<motion.div>
-						<motion.div>
+						<motion.div
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{ duration: 0.5 }}
+						>
 							<Image
 								priority
 								src="/images/profile.jpg"
@@ -47,7 +51,7 @@ export default function Layout({ children, home }) {
 						<div className="relative inline-block">
 							<h1 className={utilStyles.heading2Xl}>{name}</h1>
 							<Image
-								src="/images/arrow.webp"
+								src="/images/arrow.jpg"
 								alt="Image"
 								width={600}
 								height={600}
@@ -60,7 +64,7 @@ export default function Layout({ children, home }) {
 						<Link href="/">
 							<Image
 								priority
-								src="/images/profile.webp"
+								src="/images/profile.jpg"
 								className={utilStyles.borderCircle}
 								height={108}
 								width={108}
@@ -81,6 +85,6 @@ export default function Layout({ children, home }) {
 					<Link href="/">← Back to home</Link>
 				</div>
 			)}
-		</div>
+		</motion.div>
 	)
 }

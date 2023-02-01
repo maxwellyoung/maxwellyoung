@@ -15,7 +15,7 @@ export default function Home() {
 					<span className="relative inline-block">
 						Auckland, New Zealand.
 						<Image
-							src="/images/map.webp"
+							src="/images/map.jpg"
 							alt="Image"
 							width={600}
 							height={600}
