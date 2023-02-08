@@ -6,11 +6,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "@shopify/app-bridge": "^3.7.2",
+    "@shopify/shopify-api": "^6.1.0",
+    "@tremor/react": "^1.7.0",
+    "@vercel/analytics": "^0.1.8",
     "clsx": "^1.2.1",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
     "framer-motion": "^8.5.5",
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
