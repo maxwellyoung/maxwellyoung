@@ -25,7 +25,7 @@ Relative will maintain the normal flow of the document. The website CSS-Tricks p
 
 _position: relative;_
 
-**Fixed** positioning works how you might imagine from the title. The viewport serves as the basis for the positioning of a fixed elements. Because the viewport remains the viewport no matter where the user has scrolled or navigated to, fixed elements remain in tthe same defined space, frozen in time & space.. For example the navigation bar on this blog remains at the same position and is constantly visible even when you scroll down to view more blog posts.
+**Fixed** positioning works how you might imagine from the title. The viewport serves as the basis for the positioning of a fixed elements. Because the viewport remains the viewport no matter where the user has scrolled or navigated to, fixed elements remain in the same defined space, frozen in time & space.. For example the navigation bar on this blog remains at the same position and is constantly visible even when you scroll down to view more blog posts.
 
 _position: fixed;_
 
