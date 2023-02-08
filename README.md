@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Developed with React, Next.JS, Tailwind and Framer Motion. 
