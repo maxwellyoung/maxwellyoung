@@ -49,3 +49,17 @@ img {
 	background: red;
 	transform-origin: 0%;
 }
+
+.light-mode {
+	--bg-background: #fff;
+	--text-primary: #000;
+	--text-secondary: #797979;
+	--border-primary: #d9d9d9;
+}
+
+.dark-mode {
+	--bg-background: #131313;
+	--text-primary: #fff;
+	--text-secondary: #b3b3b3;
+	--border-primary: #333;
+}

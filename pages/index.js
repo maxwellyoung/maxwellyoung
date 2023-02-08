@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
+import { useState } from 'react'
 
 export default function Home() {
 	return (
@@ -24,10 +26,11 @@ export default function Home() {
 					</span>
 				</p>
 				<p>
-					I <a href="/code">code</a> and I <a href="/design">design</a>.
+					I <Link href="/code">code</Link> and I{' '}
+					<Link href="/design">design</Link>.
 				</p>
 				<p>
-					I <a href="/music">create</a> and I{' '}
+					I <Link href="/music">create</Link> and I{' '}
 					<a
 						href="https://beloved.wtf/maxwell-young"
 						rel="noopener noreferrer"
@@ -36,6 +39,9 @@ export default function Home() {
 						share music
 					</a>
 					.
+				</p>
+				<p className="mt-4">
+					Selling some <Link href="/clothes">clothes</Link> here.
 				</p>
 			</section>
 			<footer className="flex mt-6">
