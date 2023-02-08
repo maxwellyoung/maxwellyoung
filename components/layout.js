@@ -86,10 +86,6 @@ export default function Layout({ children, home }) {
 							</h2>
 						</>
 					)}
-					<button onClick={toggleDarkMode}>
-						{' '}
-						{darkMode ? 'Light Mode' : 'Dark Mode'}
-					</button>
 				</header>
 				<main>{children}</main>
 				{!home && (

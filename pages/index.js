@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import { useState } from 'react'
 
 export default function Home() {
 	return (
@@ -26,22 +25,23 @@ export default function Home() {
 					</span>
 				</p>
 				<p>
-					I <Link href="/code">code</Link> and I{' '}
-					<Link href="/design">design</Link>.
+					I <Link href="/code">code </Link> at Spark New Zealand.
 				</p>
 				<p>
-					I <Link href="/music">create</Link> and I{' '}
+					I <Link href="/music">create</Link> & I{' '}
 					<a
 						href="https://beloved.wtf/maxwell-young"
 						rel="noopener noreferrer"
 						target="_blank"
 					>
-						share music
+						share&nbsp;
 					</a>
-					.
+					music.
 				</p>
-				<p className="mt-4">
-					Selling some <Link href="/clothes">clothes</Link> here.
+
+				<p>
+					I also <Link href="/design">design</Link> &{' '}
+					<Link href="/direct">direct</Link>.
 				</p>
 			</section>
 			<footer className="flex mt-6">
