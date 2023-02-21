@@ -21,7 +21,7 @@ export default function Layout({ children, home }) {
 			<motion.div className={styles.container}>
 				{/* <motion.div className={`${darkMode ? "dark-mode" : "light-mode"}`}}> */}
 				<Head>
-					<link rel="icon" href="/favicon.jpg" />
+					<link rel="icon" href="/favicon.svg" />
 					<meta
 						name="description"
 						content="Maxwell Young is based in Auckland, New Zealand."

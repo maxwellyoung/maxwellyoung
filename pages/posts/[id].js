@@ -1,22 +1,34 @@
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Date from '../../components/date'
+import { notFound } from 'next/navigation'
 import Head from 'next/head'
-import utilStyles from '../../styles/utils.module.css'
+import Balancer from 'react-wrap-balancer'
 
 export default function Post({ postData }) {
+	if (!postData) {
+		notFound()
+	}
+
 	return (
 		<Layout>
 			<Head>
 				<title>{postData.title}</title>
 			</Head>
-			<article>
-				<h1 className={utilStyles.headingXl}>{postData.title}</h1>
-				<div className={utilStyles.lightText}>
-					<Date dateString={postData.date} />
-				</div>
-				<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-			</article>
+			<section>
+				<script type="application/ld+json">
+					{JSON.stringify(postData.structuredData)}
+				</script>
+				<article>
+					<h1 className="font-bold text-3xl font-serif max-w-[650px]">
+						<Balancer>{postData.title}</Balancer>
+					</h1>
+					<div className="grid grid-cols-[auto_1fr_auto] items-center mt-4 mb-8 font-mono text-sm max-w-[650px]">
+						<Date dateString={postData.date} />
+					</div>
+					<div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+				</article>
+			</section>
 		</Layout>
 	)
 }
