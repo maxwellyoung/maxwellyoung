@@ -1,5 +1,11 @@
-const { withContentlayer } = require('next-contentlayer')
-
-module.exports = withContentlayer({
-	// Your Next.js config...
-})
+module.exports = {
+	// Other configuration options...
+	async rewrites() {
+		return [
+			{
+				source: '/resume',
+				destination: '/resume.pdf',
+			},
+		]
+	},
+}
