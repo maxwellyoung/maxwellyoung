@@ -161,6 +161,3 @@ I'm passionate about making things simply with intention and principle.
     </td>
   </tr>
 </table>
-
-<br/>
-![](https://komarev.com/ghpvc/?username=maxwellyoung)
