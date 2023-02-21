@@ -162,13 +162,5 @@ I'm passionate about making things simply with intention and principle.
   </tr>
 </table>
 
-# 📈 Stats
-
-<img
-  src="https://github-readme-stats.vercel.app/api?username=maxwellyoung&show_icons=true&theme=react&&hide_border=true"
-/>
-<img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=maxwellyoung&&theme=react&&hide_border=true"
-/>
 <br/>
 ![](https://komarev.com/ghpvc/?username=maxwellyoung)
