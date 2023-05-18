@@ -60,7 +60,6 @@ const About: FC = () => (
 		>
 			<h2 className={styles.title}>Select Writing</h2>
 		</Section>
-		<ContactForm />
 	</div>
 )
 
