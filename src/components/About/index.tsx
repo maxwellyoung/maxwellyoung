@@ -15,9 +15,9 @@ const About: FC = () => (
 		<div className={styles.container}>
 			<div className={styles.image}>
 				<Image
-					src="/photos/profile.jpg"
+					src="/photos/singing.jpg"
 					alt="Maxwell Young"
-					width={500}
+					width={290}
 					height={500}
 					draggable={false}
 					placeholder="blur"

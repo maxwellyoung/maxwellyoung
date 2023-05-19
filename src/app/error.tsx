@@ -12,7 +12,7 @@ const Error: FC<{ error: Error }> = ({ error }) => {
 		<Layout>
 			<div className={styles.error_wrapper}>
 				<div>
-					<h1>Something fucked up—try refreshing.</h1>
+					<h1>Something messed up :( try refreshing.</h1>
 					<p className={styles.paragraph}>
 						Try checking the console for an error.
 					</p>
@@ -20,7 +20,7 @@ const Error: FC<{ error: Error }> = ({ error }) => {
 						If something's broken, I&apos;d really appreciate if you opened an
 						issue on{' '}
 						<a
-							href="https://github.com/maxwellyoung/www/"
+							href="https://github.com/maxwellyoung/maxwellyoung/"
 							rel="noreferrer"
 							target="_blank"
 						>
