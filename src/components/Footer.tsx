@@ -53,7 +53,7 @@ const Footer: FC = () => {
 						{typeof size.width !== 'undefined'
 							? size.width > 767
 								? 'Auckland, NZ'
-								: 'DTX'
+								: 'NZ'
 							: 'Auckland, New Zealand'}
 					</a>
 					<span className={styles.separator}>•</span>
