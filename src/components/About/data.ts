@@ -4,7 +4,7 @@ export const about: Content[] = [
 	{
 		title: 'Background',
 		content:
-			"Born and raised in Wellington, New Zealand. I've been into coding from a young age, and I'm passionate about many creative pursuits, including photography, design, and coding. This combination of interests is what led me to develop skills through guiltlessly exploring my passions and interests. I center my work on teaching/writing to empower, educate and elevate people.",
+			'Born and raised in Wellington, New Zealand. Passionate about many creative pursuits, including music, design, film, writing, and coding. This combination of interests is what led me to a relentless hunger to learn in order to express and find harmony in the confusing world we live in.',
 	},
 	{
 		title: 'Skills',
