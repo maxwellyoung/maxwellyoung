@@ -21,8 +21,7 @@ export const about: Content[] = [
 export const work: Content[] = [
 	{
 		title: 'Internal Dashboard App at Spark New Zealand',
-		content:
-			'An accessible and animated React command menu interface for a refined navigation experience.',
+		content: '',
 		newTab: true,
 	},
 	{
@@ -30,12 +29,14 @@ export const work: Content[] = [
 		content:
 			'A portfolio site for Tom Crampin, a New Zealand based motion designer.',
 		newTab: true,
+		href: 'https://tom-crampin.vercel.app/',
 	},
 	{
 		title: 'Noid | Twitter Clone',
 		content:
 			'A Twitter clone created using TypeScript, Next.js, Clerk Auth, Tailwind and TRPC. This project was created as a way to learn about TRPC and Clerk Auth. In future I intend to add more features including additional login options, pagination, embedded image uploads, and a more robust UI.',
 		newTab: true,
+		href: 'https://noid.vercel.app/',
 	},
 	{
 		title: 'Real Time Messaging App (WIP)',
