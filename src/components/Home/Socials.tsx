@@ -1,14 +1,13 @@
 import type { FC } from 'react'
+
 import {
-	FiDribbble,
-	FiGithub,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
-} from 'react-icons/fi/index'
-import { RiSnapchatLine } from 'react-icons/ri'
-import { RxDiscordLogo } from 'react-icons/rx'
+	FaGithub,
+	FaInstagram,
+	FaLinkedin,
+	FaTwitter,
+	FaYoutube,
+	FaSpotify,
+} from 'react-icons/fa'
 import styles from '@css/home.module.css'
 
 export const Socials: FC = () => {
@@ -17,28 +16,34 @@ export const Socials: FC = () => {
 			{[
 				{
 					aria: 'GitHub',
-					icon: FiGithub,
+					icon: FaGithub,
 					href: 'https://github.com/maxwellyoung',
 				},
 				{
 					aria: 'Twitter',
-					icon: FiTwitter,
+					icon: FaTwitter,
 					href: 'https://twitter.com/internetmaxwell',
 				},
 				{
 					aria: 'Linkedin',
-					icon: FiLinkedin,
+					icon: FaLinkedin,
 					href: 'https://nz.linkedin.com/in/maxwell-young-a55032125',
 				},
 				{
 					aria: 'YouTube',
-					icon: FiYoutube,
+					icon: FaYoutube,
 					href: 'https://www.youtube.com/@maxwell_young',
 				},
 				{
 					aria: 'Instagram',
-					icon: FiInstagram,
+					icon: FaInstagram,
 					href: 'https://www.instagram.com/maxwell_young',
+				},
+
+				{
+					aria: 'Spotify',
+					icon: FaSpotify,
+					href: 'https://open.spotify.com/artist/5HONdRTLNvBjlD2LirKp0q',
 				},
 			].map((link, index) => (
 				<a
