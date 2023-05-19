@@ -9,19 +9,21 @@ export const about: Content[] = [
 	{
 		title: 'Skills',
 		content:
-			"I primarily work with React and Next.js ecosystem, and I've worked extensively with several tools such as TypeScript, Jest/Enzyme, Redux, Storybook, Chakra, Tailwind/SCSS, PostgreSQL, CircleCI, and much more. The web is an endless medium of opportunities, and I have yet to scratch the surface.",
+			'I primarily work with React and Next.js ecosystem with TypeScript, TailwindCSS for styling, Figma for design and a variety of database solutions. The web is an endless medium of opportunities, and I have yet to scratch the surface.',
 	},
 	{
 		title: 'Now',
+		href: '/resume',
 		content:
-			'Freelancing web projects, looking for a new position to gain further experience, understanding.',
+			'Freelancing web projects, looking for a new position to gain further experience, understanding. Click to view my resume.',
 	},
 ]
 
 export const work: Content[] = [
 	{
 		title: 'Internal Dashboard App at Spark New Zealand',
-		content: '',
+		content:
+			"During my internship at Spark New Zealand, I was tasked with working on an internal dashboard application for marketers at Spark New Zealand, and I am particularly proud of my contributions to this project. My role was to design the application in Figma based on an existing PowerBI dashboard, allowing for the inclusion of new helpful information to be displayed from machine learning algorithms and other sources. I also developed the front-end of the application in React and Next.js. Throughout the project, I collaborated closely with the product team and stakeholders to ensure that the application met their needs and was easy to use. I also implemented best practices in software development to ensure that the application was scalable, efficient, and maintainable. Overall, I am proud of my contributions to this project and the positive impact it has had on the productivity and effectiveness of Spark's marketing team.",
 		newTab: true,
 	},
 	{

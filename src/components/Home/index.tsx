@@ -32,29 +32,32 @@ const Home: FC = () => {
 						</button>
 					</p> */}
 					<p>
-						As a software developer, I bring a lifelong passion for creating
-						innovative solutions that simplify and enhance people's lives. From
-						a young age, I admired the impact of technology, particularly
-						pple's designs, which ignited my fascination with software and user
-						experience. During high school, I explored my creativity through
-						music and the digital landscape, witnessing the power of
-						applications in shaping our daily routines. This realization led me
-						to pursue a career where I can contribute to building software that
-						is cherished for its ability to improve users' day-to-day
-						experiences. After completing a rigorous full-stack development
-						bootcamp, I gained hands-on experience as a developer/designer at
-						Spark New Zealand, where I honed my skills and gained invaluable
-						insights into the industry. Currently, I focus on crafting
-						compelling portfolio sites for clients while pursuing side projects
-						to continuously expand my knowledge. With a solid foundation in
-						computer science and web development, I am eager to join teams
-						committed to creating impactful software. I offer a unique
-						perspective, combining technical expertise with a deep understanding
-						of user-centric design. I am actively seeking new opportunities and
-						collaborations in the web development field. If you are looking for
-						a motivated and dedicated junior web developer who can contribute to
-						your team's success, I would love to connect. Please feel free to
-						reach out so that we can discuss how we can work together.
+						As a software developer, I am driven by a passion for creating
+						innovative solutions that simplify and enhance people's lives. With
+						a deep admiration for technology's impact, I became fascinated with
+						software and user experience from a young age. This fascination led
+						me to explore my creativity through music and the digital landscape
+						during high school, where I witnessed the transformative power of
+						applications in shaping our daily routines.
+					</p>
+					<br />
+					<br />
+					<p>
+						With a solid foundation in computer science and web development, I
+						am eager to join teams committed to creating impactful software.
+						What sets me apart is my unique perspective, combining technical
+						expertise with a deep understanding of user-centric design
+						principles. I am actively seeking new opportunities and
+						collaborations in the web development field.
+					</p>
+					<br />
+					<br />
+					<p>
+						If you are looking for a motivated and dedicated developer who can
+						contribute to your team's success, I would be thrilled to connect.
+						Let's discuss how we can work together to create remarkable
+						solutions that elevate user experiences. Feel free to reach out—I'm
+						excited to explore new possibilities!
 					</p>
 					<svg
 						aria-hidden="true"
