@@ -38,7 +38,7 @@ export const work: Content[] = [
 		content:
 			'A Twitter clone created using TypeScript, Next.js, Clerk Auth, Tailwind and TRPC. This project was created as a way to learn about TRPC and Clerk Auth. In future I intend to add more features including additional login options, pagination, embedded image uploads, and a more robust UI.',
 		newTab: true,
-		href: 'https://noid.vercel.app/',
+		href: 'https://noid-maxwellyoung.vercel.app/',
 	},
 	{
 		title: 'Real Time Messaging App (WIP)',
