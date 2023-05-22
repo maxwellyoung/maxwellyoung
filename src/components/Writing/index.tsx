@@ -45,12 +45,13 @@ const Writing: FC = () => {
 					{data ? (
 						<div className={styles.info}>
 							<div className={styles.box}>
-								<FiEye />
+								{/* <FiEye />
 								<p>{data.views.toLocaleString()} views</p>
 							</div>
 							<div className={styles.box}>
 								<FiUser />
-								<p>{data.followers.toLocaleString()} subscribers</p>
+								<p>{data.followers.toLocaleString()} subscribers</p> */}
+								<p>Thanks for reading!</p>
 							</div>
 						</div>
 					) : (
