@@ -35,6 +35,7 @@ const Error: NextPage = () => (
 					so you might wanna check around my <Link href="/blog">blog</Link> if
 					you&apos;re looking for something of that sort.
 				</p>
+				<br />
 				<div className={styles.image}>
 					<Image
 						src="/photos/crying.jpg"

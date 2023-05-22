@@ -49,6 +49,11 @@ export const work: Content[] = [
 
 export const writing: Content[] = [
 	{
+		title: 'Understanding React Terminology',
+		content: 'An article about React concurrency',
+		href: '/writing/concurrency',
+	},
+	{
 		title: 'About',
 		content: 'Why I made this blog',
 		href: '/writing/about',
