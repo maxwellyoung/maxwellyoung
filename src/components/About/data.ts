@@ -13,7 +13,7 @@ export const about: Content[] = [
 	},
 	{
 		title: 'Now',
-		href: '/resume',
+		href: '/resume.pdf',
 		content:
 			'Freelancing web projects, looking for a new position to gain further experience, understanding. Click to view my resume.',
 	},
