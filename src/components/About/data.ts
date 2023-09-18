@@ -17,11 +17,6 @@ export const about: Content[] = [
 		content:
 			'As a freelance web developer, I am actively seeking new opportunities to expand my experience and deepen my understanding in order to take my skills to the next level.',
 	},
-	{
-		title: 'Other ventures',
-		content:
-			'As a freelance web developer, I am actively seeking new opportunities to expand my experience and deepen my understanding in order to take my skills to the next level.',
-	},
 ]
 
 export const otherventures: Content[] = [
