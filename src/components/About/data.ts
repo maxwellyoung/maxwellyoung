@@ -17,6 +17,41 @@ export const about: Content[] = [
 		content:
 			'As a freelance web developer, I am actively seeking new opportunities to expand my experience and deepen my understanding in order to take my skills to the next level.',
 	},
+	{
+		title: 'Other ventures',
+		content:
+			'As a freelance web developer, I am actively seeking new opportunities to expand my experience and deepen my understanding in order to take my skills to the next level.',
+	},
+]
+
+export const otherventures: Content[] = [
+	{
+		title: 'Musician',
+		content:
+			'I release alternative pop music under my own name I write and produce with the assistance of Eddie Johnston.',
+	},
+	{
+		title: 'DJ',
+		content:
+			'I help people have fun by DJing parties with my friend Thom.',
+	},
+	{
+		title: 'Composer',
+		href: '/resume.pdf',
+		content:
+			'Currently composing a video game soundtrack.',
+	},
+	{
+		title: 'Radio DJ',
+		content:
+			'I host a monthly web radio show on beloved.wtf featuring an eclectic mix of songs that make me believe in the magic of music.',
+	},
+	
+	{
+		title: 'Visual Artist',
+		content:
+			'Also working towards becoming a more confident visual artist through directing videos and practicing design.',
+	},
 ]
 
 export const work: Content[] = [
