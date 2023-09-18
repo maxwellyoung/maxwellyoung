@@ -32,7 +32,6 @@ export const otherventures: Content[] = [
 	},
 	{
 		title: 'Composer',
-		href: '/resume.pdf',
 		content:
 			'Currently composing a video game soundtrack.',
 	},
