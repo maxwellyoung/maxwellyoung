@@ -32,7 +32,7 @@ const Home: FC = () => {
 						</button>
 					</p> */}
 					<p>
-						Hey there, I'm Maxwell Young, a CS undergrad at Auckland University of Technology. 
+						Hey there! I'm Maxwell Young, a CS undergrad at Auckland University of Technology. 
 					</p>
 					<br />
 					<p>
