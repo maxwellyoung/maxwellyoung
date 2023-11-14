@@ -32,33 +32,12 @@ const Home: FC = () => {
 						</button>
 					</p> */}
 					<p>
-						As a software developer, I am driven by a passion for creating
-						innovative solutions that simplify and enhance people's lives. With
-						a deep admiration for technology's impact, I became fascinated with
-						software and user experience from a young age. This fascination led
-						me to explore my creativity through music and the digital landscape
-						during high school, where I witnessed the transformative power of
-						applications in shaping our daily routines.
+						Hey there, I'm Maxwell Young, a CS undergrad at Auckland University of Technology. 
+						I've been a UI Developer at Spark New Zealand and graduated from Dev Academy Aotearoa.
+						I'm passionate about making things simply with intention and principle to elevate user experiences and solve everyday issues.
+						I've also been releasing music under my own name since 2015.
 					</p>
-					<br />
-					<br />
-					<p>
-						With a solid foundation in computer science and web development, I
-						am eager to join teams committed to creating impactful software.
-						What sets me apart is my unique perspective, combining technical
-						expertise with a deep understanding of user-centric design
-						principles. I am actively seeking new opportunities and
-						collaborations in the web development field.
-					</p>
-					<br />
-					<br />
-					<p>
-						If you are looking for a motivated and dedicated developer who can
-						contribute to your team's success, I would be thrilled to connect.
-						Let's discuss how we can work together to create remarkable
-						solutions that elevate user experiences. Feel free to reach out—I'm
-						excited to explore new possibilities!
-					</p>
+					
 					<svg
 						aria-hidden="true"
 						width="80"
