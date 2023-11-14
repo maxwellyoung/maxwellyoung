@@ -34,7 +34,7 @@ const Home: FC = () => {
 					<p>
 						Hey there, I'm Maxwell Young, a CS undergrad at Auckland University of Technology. 
 						I've been a UI Developer at Spark New Zealand and graduated from Dev Academy Aotearoa.
-						I'm passionate about making things simply with intention and principle to elevate user experiences and solve everyday issues.
+						I'm passionate about making software simple with intention and principles to elevate user experiences and solve everyday issues.
 						I've also been releasing music under my own name since 2015.
 					</p>
 					
