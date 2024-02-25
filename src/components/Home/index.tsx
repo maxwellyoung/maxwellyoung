@@ -36,7 +36,7 @@ const Home: FC = () => {
 					</p>
 					<br />
 					<p>
-						I've been a UI Developer at Spark New Zealand and graduated from Dev Academy Aotearoa.
+						Currently studying a Bachelor of Computer Science at AUT, majoring in Software Development and Data Science. I've been a UI Developer at Spark New Zealand and graduated from Dev Academy Aotearoa.
 					</p>
 					<br />
 					<p>
