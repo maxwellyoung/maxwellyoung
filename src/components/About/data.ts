@@ -101,10 +101,4 @@ export const visual: Content[] = [
     content: "Music Video for Lontalius",
     href: "/https://youtu.be/f-fC7qJxrbE?si=TlBUNCsra_gLehYf",
   },
-  {
-    title: "AI in Development",
-    content:
-      "Exploring the evolving relationship between developers and AI, this article delves into the challenges, benefits, and limitations of AI tools in the development process while emphasizing the importance of complementing AI with deep expertise and continuous learning.",
-    href: "/writing/ai",
-  },
 ];
