@@ -68,7 +68,7 @@ const About: FC = () => (
       extend={{ title: "All Visual Work", href: "/visual" }}
       id="visual"
     >
-      <h2 className={styles.title}>Select Visual Work</h2>
+      {/* <h2 className={styles.title}>Select Visual Work</h2> */}
     </Section>
   </div>
 );
