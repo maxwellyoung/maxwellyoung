@@ -92,7 +92,7 @@ export const visual: Content[] = [
   {
     title: "Lontalius - dontwanna",
     content: "Music Video for Lontalius",
-    href: "https://youtu.be/f-fC7qJxrbE?si=TlBUNCsra_gLehYf",
+    href: "https://youtu.be/f-fC7qJxrbE?si=TlBUNCsra_gLehYf/",
   },
   {
     title: "Church - Orange",
