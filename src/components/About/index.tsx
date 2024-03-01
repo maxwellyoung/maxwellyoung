@@ -63,12 +63,8 @@ const About: FC = () => (
     >
       <h2 className={styles.title}>Select Writing</h2>
     </Section>
-    <Section
-      content={data.visual}
-      extend={{ title: "All Visual Work", href: "/visual" }}
-      id="visual"
-    >
-      {/* <h2 className={styles.title}>Select Visual Work</h2> */}
+    <Section content={data.visual} id="visual">
+      <h2 className={styles.title}>Select Visual Work</h2>
     </Section>
   </div>
 );
