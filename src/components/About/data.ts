@@ -36,7 +36,7 @@ export const otherventures: Content[] = [
   {
     title: "Radio DJ",
     content:
-      "I host a monthly web radio show on beloved.wtf with the intention of expressing the antitheses of AI generated playlists by streaming services, a bespoke collection of songs strung together by no reason by my own emotionality and each songs relation to my life.",
+      "I host a monthly web radio show on beloved.wtf with the intention of expressing the antitheses of AI generated playlists of streaming services, bespoke collections of songs strung together for no reason but my own emotionality and each songs relation to my life.",
   },
 
   {
