@@ -51,7 +51,7 @@ export const work: Content[] = [
     title: "Internal Dashboard App at Spark New Zealand",
     content:
       "During my employment at Spark New Zealand, I was tasked with designing and developing the front end of on an internal dashboard application for marketers at Spark New Zealand, and I am particularly proud of my contributions to this project. My role was to design the application in Figma based on an existing PowerBI dashboard, allowing for the inclusion of new helpful information to be displayed from machine learning algorithms and other sources. I also developed the front-end of the application in React and Next.js. Throughout the project, I collaborated closely with the product team and stakeholders to ensure that the application met their needs and was easy to use. I also implemented best practices in software development to ensure that the application was scalable, efficient, and maintainable. Overall, I am proud of my contributions to this project and the positive impact it has had on the productivity and effectiveness of Spark's marketing team.",
-    newTab: true,
+    newTab: false,
   },
   {
     title: "Tom Crampin Portfolio",
@@ -59,6 +59,13 @@ export const work: Content[] = [
       "A portfolio site for Tom Crampin, a New Zealand based motion designer.",
     newTab: true,
     href: "https://tom-crampin.vercel.app/",
+  },
+  {
+    title: "Post Lecture (Work In Progress)",
+    content:
+      "A React Native app to assist in reinforced learning of the material covered in the lectures.",
+    newTab: true,
+    href: "https://noid-maxwellyoung.vercel.app/",
   },
   {
     title: "Noid | Twitter Clone",
