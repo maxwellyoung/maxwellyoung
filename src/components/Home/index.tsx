@@ -36,8 +36,9 @@ const Home: FC = () => {
           <p>
             Currently studying a Bachelor of Computer Science at Auckland
             University of Technology, majoring in Software Development and Data
-            Science. I've been a UI Developer at Spark New Zealand and graduated
-            from Dev Academy Aotearoa.
+            Science. I've prevoiusly been a UI Developer at Spark New Zealand
+            and graduated from the web development bootcamp Dev Academy
+            Aotearoa.
           </p>
           <br />
           <p>
@@ -45,7 +46,11 @@ const Home: FC = () => {
             principles to elevate user experiences and solve everyday issues.
           </p>
           <br />
-          <p>I've also been releasing music under my own name since 2015.</p>
+          <p>
+            I've also been releasing{" "}
+            <a href="https://music.maxwellyoung.info/">music</a> under my own
+            name since 2015.
+          </p>
 
           <svg
             aria-hidden="true"
