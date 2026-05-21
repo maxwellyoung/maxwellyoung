@@ -19,7 +19,6 @@ I work across React Native, Next.js, interface systems, motion, and pragmatic pr
 - [raycast-streaks](https://github.com/maxwellyoung/raycast-streaks): small Raycast extension with clean command workflows.
 - [music_maxwell](https://github.com/maxwellyoung/music_maxwell): public music release site with Next.js product foundations.
 - [dante](https://github.com/maxwellyoung/dante): experimental Lua gameplay systems and native engine prototype.
-- [most-likely-to](https://github.com/maxwellyoung/most-likely-to), [never-have-i-ever](https://github.com/maxwellyoung/never-have-i-ever), and [paranoia](https://github.com/maxwellyoung/paranoia): mobile-first social games built with Expo and React Native.
 
 ## What I care about
 
