@@ -14,6 +14,10 @@ I work across React Native, Next.js, interface systems, motion, and pragmatic pr
 | [funnel](https://github.com/maxwellyoung/funnel) | Product systems: learning-resource capture, review state, PDF handling, and Supabase foundations. |
 | [dev.maxwellyoung.info](https://github.com/maxwellyoung/dev.maxwellyoung.info) | Portfolio and writing surface for selected work. |
 
+## Open source
+
+- [T3 Code — mobile composer Enter behavior](https://github.com/pingdotgg/t3code/pull/3930): restored multiline input on mobile web while preserving desktop keyboard behavior, with focused tests and browser verification.
+
 ## Also public
 
 - [raycast-streaks](https://github.com/maxwellyoung/raycast-streaks): small Raycast extension with clean command workflows.
