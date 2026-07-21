@@ -16,7 +16,7 @@ I work across React Native, Next.js, interface systems, motion, and pragmatic pr
 
 ## Open source
 
-- [T3 Code — mobile composer Enter behavior](https://github.com/pingdotgg/t3code/pull/3930): restored multiline input on mobile web while preserving desktop keyboard behavior, with focused tests and browser verification.
+- [T3 Code — mobile composer Enter behavior](https://github.com/pingdotgg/t3code): contributing with focused tests and browser verification.
 
 ## Also public
 
