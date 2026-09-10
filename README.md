@@ -1,34 +1,14 @@
 # Maxwell Young
 
-Design engineer building product interfaces, mobile apps, developer tools, and systems that hold up on real devices.
+I'm a design engineer at Silk. I work on web and mobile apps, mostly with React Native and Next.js.
 
-I work across React Native, Next.js, interface systems, motion, and pragmatic product engineering. Currently design engineering at Silk, building personal products, and taking selective studio work through ninetynine digital.
+A few things I've been building:
 
-## Start here
+- [skillscan](https://github.com/maxwellyoung/skillscan): a security scanner for Claude Code skills and MCP servers.
+- [doomscroll](https://github.com/maxwellyoung/doomscroll): a mobile prototype for learning your way around a codebase.
+- [prospector](https://github.com/maxwellyoung/prospector): an experiment in finding software ideas in people's complaints.
+- [funnel](https://github.com/maxwellyoung/funnel): a place to save and revisit learning resources.
 
-| Project | What it shows |
-| --- | --- |
-| [skillscan](https://github.com/maxwellyoung/skillscan) | Developer-tool judgment: static security scanning for Claude Code skills and MCP servers. |
-| [doomscroll](https://github.com/maxwellyoung/doomscroll) | Mobile product thinking: React Native codebase-learning prototype with release-oriented structure. |
-| [prospector](https://github.com/maxwellyoung/prospector) | AI product workflow: mining frustration signals into inspectable SaaS opportunities. |
-| [funnel](https://github.com/maxwellyoung/funnel) | Product systems: learning-resource capture, review state, PDF handling, and Supabase foundations. |
-| [dev.maxwellyoung.info](https://github.com/maxwellyoung/dev.maxwellyoung.info) | Portfolio and writing surface for selected work. |
+I also make music and take on occasional work through ninetynine digital.
 
-## Open source
-
-- [T3 Code — mobile composer Enter behavior](https://github.com/pingdotgg/t3code): contributing with focused tests and browser verification.
-
-## Also public
-
-- [raycast-streaks](https://github.com/maxwellyoung/raycast-streaks): small Raycast extension with clean command workflows.
-- [music_maxwell](https://github.com/maxwellyoung/music_maxwell): public music release site with Next.js product foundations.
-- [dante](https://github.com/maxwellyoung/dante): experimental Lua gameplay systems and native engine prototype.
-
-## What I care about
-
-- Interfaces that make state obvious instead of decorative.
-- Mobile flows that survive real-device testing, latency, and awkward edge cases.
-- Product systems that are simple enough to ship and structured enough to keep improving.
-- Developer tools with clear failure modes and useful defaults.
-
-More context: [dev.maxwellyoung.info](https://dev.maxwellyoung.info)
+[Website and writing](https://dev.maxwellyoung.info)
