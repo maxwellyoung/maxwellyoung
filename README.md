@@ -4,11 +4,11 @@ I'm a design engineer at Silk. I work on web and mobile apps, mostly with React 
 
 A few things I've been building:
 
-- [skillscan](https://github.com/maxwellyoung/skillscan): a security scanner for Claude Code skills and MCP servers.
-- [doomscroll](https://github.com/maxwellyoung/doomscroll): a mobile prototype for learning your way around a codebase.
-- [prospector](https://github.com/maxwellyoung/prospector): an experiment in finding software ideas in people's complaints.
-- [funnel](https://github.com/maxwellyoung/funnel): a place to save and revisit learning resources.
+- [music_maxwell](https://github.com/maxwellyoung/music_maxwell): my music site, with custom pages for individual releases.
+- [doomscroll](https://github.com/maxwellyoung/doomscroll): a swipe-based app for learning a codebase.
+- [skillscan](https://github.com/maxwellyoung/skillscan): a static security scanner for skills and MCP servers.
+- [dante](https://github.com/maxwellyoung/dante): a game prototype in Lua and C++.
 
-I also make music and take on occasional work through ninetynine digital.
+I also contribute to [T3 Code](https://github.com/pingdotgg/t3code/pulls?q=is%3Apr+is%3Amerged+author%3Amaxwellyoung) and take on occasional work through ninetynine digital.
 
 [Website and writing](https://dev.maxwellyoung.info)
