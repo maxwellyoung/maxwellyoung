@@ -9,7 +9,7 @@
 		"lint": "next lint"
 	},
 	"engines": {
-		"node": "^18.0.0"
+		"node": "24.x"
 	},
 	"dependencies": {
 		"@sanity/image-url": "^1.0.2",
@@ -58,6 +58,8 @@
 		"@types/react": "18.0.28",
 		"@types/react-dom": "18.0.11",
 		"@types/unist": "^2.0.6",
+		"esbuild": "0.17.19",
 		"remark-sectionize": "^1.1.1"
-	}
+	},
+	"packageManager": "pnpm@11.18.0"
 }
